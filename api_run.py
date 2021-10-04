@@ -37,9 +37,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # More gimmicky
         pi = "3,14159265358979323846"   
 
-        # Pseudo random name list                                        
-        paula = ["pau no cu do bolsonaro", "bolsonaro fudido",
-                "me mama, bolsonaro", "vai responder nao puta?"] 
+        # Pseudo random name list
+        # NOT USED ANYMORE
+        paula = [" ", " ",
+                " ", " "] 
         zeca_pagodinho = choice(paula)
 
         # Open a file/db and iterate through it
